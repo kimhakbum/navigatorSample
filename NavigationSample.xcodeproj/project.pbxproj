@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E048983E1F43FFF600B3B84F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048983D1F43FFF600B3B84F /* AppDelegate.swift */; };
-		E04898401F43FFF600B3B84F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048983F1F43FFF600B3B84F /* ViewController.swift */; };
 		E04898431F43FFF600B3B84F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04898411F43FFF600B3B84F /* Main.storyboard */; };
 		E04898451F43FFF600B3B84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E04898441F43FFF600B3B84F /* Assets.xcassets */; };
 		E04898481F43FFF600B3B84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E04898461F43FFF600B3B84F /* LaunchScreen.storyboard */; };
+		E04898501F44050100B3B84F /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E048984F1F44050100B3B84F /* SettingTableViewController.swift */; };
+		E04898521F440A7E00B3B84F /* BackColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04898511F440A7E00B3B84F /* BackColorViewController.swift */; };
+		E04898541F440C7F00B3B84F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04898531F440C7F00B3B84F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E048983A1F43FFF600B3B84F /* NavigationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E048983D1F43FFF600B3B84F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E048983F1F43FFF600B3B84F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E04898421F43FFF600B3B84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E04898441F43FFF600B3B84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E04898471F43FFF600B3B84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E04898491F43FFF600B3B84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E048984F1F44050100B3B84F /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		E04898511F440A7E00B3B84F /* BackColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackColorViewController.swift; sourceTree = "<group>"; };
+		E04898531F440C7F00B3B84F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E048983D1F43FFF600B3B84F /* AppDelegate.swift */,
-				E048983F1F43FFF600B3B84F /* ViewController.swift */,
 				E04898411F43FFF600B3B84F /* Main.storyboard */,
 				E04898441F43FFF600B3B84F /* Assets.xcassets */,
 				E04898461F43FFF600B3B84F /* LaunchScreen.storyboard */,
 				E04898491F43FFF600B3B84F /* Info.plist */,
+				E048984F1F44050100B3B84F /* SettingTableViewController.swift */,
+				E04898511F440A7E00B3B84F /* BackColorViewController.swift */,
+				E04898531F440C7F00B3B84F /* MainViewController.swift */,
 			);
 			path = NavigationSample;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04898401F43FFF600B3B84F /* ViewController.swift in Sources */,
+				E04898521F440A7E00B3B84F /* BackColorViewController.swift in Sources */,
+				E04898501F44050100B3B84F /* SettingTableViewController.swift in Sources */,
 				E048983E1F43FFF600B3B84F /* AppDelegate.swift in Sources */,
+				E04898541F440C7F00B3B84F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
